@@ -303,7 +303,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     sensors.msm8998
 
-# Wifi
+# WiFi HAL
+PRODUCT_PACKAGES += \
+    android.hardware.wifi@1.0-service
+
+# WiFi
 PRODUCT_PACKAGES += \
     ipacm \
     ipacm-diag \
