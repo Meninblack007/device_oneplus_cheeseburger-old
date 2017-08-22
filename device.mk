@@ -229,7 +229,8 @@ PRODUCT_COPY_FILES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    lights.msm8998
+    lights.msm8998 \
+    android.hardware.light@2.0-impl
 
 # Media
 PRODUCT_COPY_FILES += \
