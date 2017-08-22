@@ -105,6 +105,9 @@ mm.enable.smoothstreaming=true
 persist.mm.enable.prefetch=true
 vidc.enc.dcvs.extra-buff-count=2
 
+# Media
+persist.media.treble_omx=false
+
 # NFC
 ro.nfc.port=I2C
 persist.nfc.smartcard.config=SIM1,eSE1
