@@ -180,8 +180,8 @@ PRODUCT_PACKAGES += \
     libgenlock
 
 # Doze mode
-#PRODUCT_PACKAGES += \
-    OneplusDoze
+PRODUCT_PACKAGES += \
+    Launcher3
 
 # Fingerprint sensor
 PRODUCT_PACKAGES += \
