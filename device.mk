@@ -357,6 +357,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/seccomp_policy/mediacodec.policy:system/vendor/etc/seccomp_policy/mediacodec.policy
 
+# Shims
+PRODUCT_PACKAGES += \
+    libshims_system_properties
+
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service \
