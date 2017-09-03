@@ -253,9 +253,6 @@ PROTOBUF_SUPPORTED := true
 #include device/qcom/sepolicy/sepolicy.mk
 #BOARD_SEPOLICY_DIRS += $(PLATFORM_PATH)/sepolicy
 
-# Sensors
-USE_SENSOR_MULTI_HAL := true
-
 # Timeservice
 BOARD_USES_QC_TIME_SERVICES := true
 
